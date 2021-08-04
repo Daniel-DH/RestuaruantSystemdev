@@ -5,7 +5,7 @@ import store from './store'
 import axios from 'axios'
 import VueAxios from 'vue-axios'
 // Agregamos la URL base de nuestra API
-axios.defaults.baseURL = 'http://localhost:4000/api';
+axios.defaults.baseURL = 'https://qszaue0hni.execute-api.us-east-2.amazonaws.com/dev/api/';
 
 import "bootstrap/dist/css/bootstrap.min.css"
 import "bootstrap"
